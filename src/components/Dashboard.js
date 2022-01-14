@@ -4,9 +4,9 @@ import './Dashboard.css';
 function Dashboard () {
   return (
     <div className="dashboard">
-      <h2>Emoji Critic — All About Emojis</h2>
+      <h2>Emoji Critic — всё об эмодзи</h2>
       <p>
-        The #1 Destination for Emoji Reviews on the World Wide Web Since 2020!
+        #1 среди авторов обзоров на эмодзи в этом году!
       </p>
     </div>
   )

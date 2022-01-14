@@ -4,9 +4,9 @@ import './AboutContent.css';
 function SiteHistory () {
   return (
     <div className="about-content">
-      <h3>Site History</h3>
+      <h3>История приложения</h3>
       <p>
-        This site was founded back in 2020 thanks to a generous donation from Nana.
+        Приложение было создано в незапамятном 2020 году. Коллектив Emoji Critic благодарит бабушку, без доброй поддержки которой проект был бы невозможен.
       </p>
     </div>
   )

@@ -14,7 +14,7 @@ function AboutUs () {
           <Link to={`${url}/site-history`}>История приложения</Link>
         </li>
         <li>
-          <Link to={`${url}/site-mission`}>Миссия приложения</Link>
+          <Link to={`${url}/site-mission`}>Наша миссия</Link>
         </li>
       </ul>
       <Route path={`${path}/site-history`}>

@@ -1,11 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Reviews.css';
 
-function Reviews () {
+function Reviews (props) {
   return (
-    <div className="reviews">
-      <p>My reviews will go here!</p>
-    </div>
+    // необходимо изменить код внутри метода map
+    <>
+      <ul className="reviews">
+        {props.reviews && props.reviews.map((review)=>{
+          return <li key={review.id} className="reviews__item">{review.title}</li>
+        })}
+      </ul>
+    </>
   )
 }
 

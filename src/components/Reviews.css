@@ -7,18 +7,26 @@
   justify-content: center;
 }
 
-.reviews h2 {
-  text-align: center;
+.reviews__item {
+  list-style-type: none;
   font-size: 32px;
   line-height: 37px;
-  max-width: 500px;
-  margin: 20px 0;
-  font-weight: normal;
-  margin-top: 60px;
+  padding: 20px 50px;
+  background-color: #E8E8E8;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
-.reviews p {
+.reviews a {
+  color: #437DFF;
+  text-decoration: none;
   font-size: 20px;
-  line-height: 23px;  
-  max-width: 350px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.reviews__item:last-of-type {
+  margin-bottom: 0;
 }
