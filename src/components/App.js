@@ -6,11 +6,12 @@ import Review from './Review';
 import Reviews from './Reviews';
 import AboutMe from './about-me/AboutMe';
 import AboutUs from './about-us/AboutUs';
+//import GoBack from './GoBack';
 
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
-
+	
   const [reviews, setReviews] = useState();
   // этот хук используется единожды, при запуске компонента
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+			{/*<GoBack />*/}
       <Switch>
         <Route exact path="/">
           <Dashboard />
