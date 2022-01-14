@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.216ed230.css",
-    "main.js": "./static/js/main.2a8771da.js",
+    "main.css": "./static/css/main.f7a9dfb1.css",
+    "main.js": "./static/js/main.c8f8263d.js",
     "static/media/file-svg-arrow-carousel-11563348023vye2goeyrf.png": "./static/media/file-svg-arrow-carousel-11563348023vye2goeyrf.ec45f3934211dc5656c4.png",
     "static/media/Roboto.woff": "./static/media/Roboto.59d18e163bfcd0607572.woff",
     "index.html": "./index.html",
-    "main.216ed230.css.map": "./static/css/main.216ed230.css.map",
-    "main.2a8771da.js.map": "./static/js/main.2a8771da.js.map"
+    "main.f7a9dfb1.css.map": "./static/css/main.f7a9dfb1.css.map",
+    "main.c8f8263d.js.map": "./static/js/main.c8f8263d.js.map"
   },
   "entrypoints": [
-    "static/css/main.216ed230.css",
-    "static/js/main.2a8771da.js"
+    "static/css/main.f7a9dfb1.css",
+    "static/js/main.c8f8263d.js"
   ]
 }
