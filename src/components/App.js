@@ -1,10 +1,12 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom'; // импортируем Switch
+import './App.css';
 import Dashboard from './Dashboard';
 import Header from './Header';
 import Reviews from './Reviews';
 import AboutMe from './AboutMe';
-import './App.css';
+import AboutUs from './AboutUs';
+
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
         </Route>
         <Route path="/about-me">
           <AboutMe />
+        </Route>
+        <Route path="/about-us">
+          <AboutUs />
         </Route>
       </Switch>
     </div>
