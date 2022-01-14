@@ -1,0 +1,8 @@
+.header {
+    min-height: 70px;
+    border-bottom: 1px solid #000000;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    position: relative;
+} 

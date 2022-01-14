@@ -1,0 +1,24 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: calc(100vh - 140px);
+  justify-content: center;
+}
+
+.dashboard h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 37px;
+  max-width: 500px;
+  margin: 20px 0;
+  font-weight: normal;
+  margin-top: 60px;
+}
+
+.dashboard p {
+  font-size: 20px;
+  line-height: 23px;  
+  max-width: 350px;
+}
