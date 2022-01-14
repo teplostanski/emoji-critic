@@ -4,7 +4,7 @@ import './Reviews.css';
 function Reviews () {
   return (
     <div className="reviews">
-      <p>Здесь будут ревью!</p>
+      <p>My reviews will go here!</p>
     </div>
   )
 }

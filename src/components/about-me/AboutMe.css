@@ -1,0 +1,35 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: calc(100vh - 140px);
+}
+
+.about-me ul {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-me li {
+  list-style-type: none;
+  font-size: 32px;
+  line-height: 37px;
+  padding: 10px 20px;
+  background-color: #E8E8E8;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.about-me li:last-of-type {
+  margin-right: 0;
+}
+
+.about-me a {
+  color: #437DFF;
+  text-decoration: none;
+  font-size: 20px;
+}

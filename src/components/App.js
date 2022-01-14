@@ -3,8 +3,8 @@ import './App.css';
 import Dashboard from './Dashboard';
 import Header from './Header';
 import Reviews from './Reviews';
-import AboutMe from './AboutMe';
-import AboutUs from './AboutUs';
+import AboutMe from './about-me/AboutMe';
+import AboutUs from './about-us/AboutUs';
 
 import { Route, Switch } from 'react-router-dom';
 
