@@ -1,14 +1,14 @@
 .button_type_back {
-padding: 29px 29px;
-background-color: #437DFF;
-background-image: url(https://cdn1.iconfinder.com/data/icons/utility/100/SVG_Utility-01-1024.png);
-background-size: 67px;
-border-radius: 50%;
-width: 32px;
-height: 32px;
-border: none;
-background-position: right;
-position: absolute;
-left: 0px;
-top: 175px;
+	background-color: #437dff;
+	background-image: url(https://cdn1.iconfinder.com/data/icons/utility/100/SVG_Utility-01-1024.png);
+	background-position: 100%;
+	background-size: 49px;
+	border: none;
+	border-radius: 50%;
+	height: 21px;
+	left: 0;
+	padding: 20px;
+	position: absolute;
+	top: 125px;
+	width: 32px;
 }
