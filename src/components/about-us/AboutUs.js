@@ -3,6 +3,7 @@ import './AboutUs.css';
 import SiteHistory from './SiteHistory';
 import SiteMission from './SiteMission';
 import { Route, Link, useRouteMatch } from 'react-router-dom';
+import GoBack from '../GoBack';
 
 function AboutUs () {
   const { path, url } = useRouteMatch();
@@ -23,6 +24,7 @@ function AboutUs () {
       <Route path={`${path}/site-mission`}>
         <SiteMission />
       </Route>
+			<GoBack />
     </div>
   )
 }

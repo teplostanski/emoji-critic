@@ -1,4 +1,4 @@
-.button_type_back {
+/*.button_type_back {
 	background-color: #437dff;
 	background-image: url(https://cdn1.iconfinder.com/data/icons/utility/100/SVG_Utility-01-1024.png);
 	background-position: 100%;
@@ -11,4 +11,32 @@
 	position: absolute;
 	top: 125px;
 	width: 32px;
+}*/
+
+.button {
+	display: block;
+	box-sizing: border-box;
+	border: 2px solid #000;
+	background-color: transparent;
+	color: #437dff;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.button:hover {
+	border-color: #437dff;
+}
+
+.button_type_back {
+	margin-top: 24px;
+	width: 60px;
+	height: 60px;
+	background-image: url("https://toppng.com/uploads/preview/file-svg-arrow-carousel-11563348023vye2goeyrf.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45px;
+}
+
+.button_type_back:hover {
+	background-image: url("../../public/file-svg-arrow-carousel-11563348023vye2goeyrf.png");
 }

@@ -4,6 +4,7 @@ import './AboutMe.css';
 import MyStory from './MyStory';
 import Hobbies from './Hobbies';
 import Contact from './Contact';
+import GoBack from '../GoBack';
 
 function AboutMe () {
   const { path, url } = useRouteMatch();
@@ -30,6 +31,7 @@ function AboutMe () {
       <Route path={`${path}/contact`}>
         <Contact />
       </Route>
+			<GoBack />
     </div>
   )
 }

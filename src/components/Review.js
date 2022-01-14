@@ -1,6 +1,7 @@
 import React from 'react';
 import './Review.css';
 import { useParams } from 'react-router-dom';
+import GoBack from './GoBack';
 
 function Review (props) {
   let { reviews } = props;
@@ -18,7 +19,7 @@ function Review (props) {
             <p>Рейтинг: {reviews[id].rating}/5</p>
           </div>
       }
-
+		<GoBack />
     </div>
   );
 }
